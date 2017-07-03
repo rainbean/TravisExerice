@@ -2,6 +2,9 @@
 
 Travis CI [Guide](https://www.raywenderlich.com/109418/travis-ci-tutorial)
 
+####Master branch build status: 
+![](https://travis-ci.org/rainbean/TravisExerice.svg?branch=master)
+
 ## FourInARow: Using the GameplayKit Minmax Strategist for Opponent AI
 
 This sample demonstrates how to use the GKMinmaxStrategist class to implement a computer-controlled opponent for turn-based, adversarial games. As part of this demonstration, the sample shows how to structure gameplay model code for use with the minmax strategist using the GKGameModel protocol and related APIs.
