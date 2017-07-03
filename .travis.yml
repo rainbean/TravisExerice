@@ -4,6 +4,7 @@ xcode_project: FourInARow.xcodeproj
 xcode_scheme: FourInARow
 xcode_sdk: iphonesimulator10.3
 
-# somehow default behavior not working, refer https://stackoverflow.com/questions/41786984/error-unexpected-action-build-when-building-a-project-with-swift-3-and-cocoa
+# Custom build and unit test scripts
 script:
-    - xcodebuild clean build -sdk iphonesimulator10.3 -project FourInARow.xcodeproj -scheme FourInARow CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean build-for-testing -sdk iphonesimulator10.3 -project FourInARow.xcodeproj -scheme FourInARow CODE_SIGNING_REQUIRED=NO
+    - xctool -project FourInARow.xcodeproj -scheme FourInARow -sdk iphonesimulator10.3 run-tests
