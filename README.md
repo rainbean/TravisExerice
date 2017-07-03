@@ -1,5 +1,6 @@
 # Practice Travis CI
 
+Travis CI [Guide](https://www.raywenderlich.com/109418/travis-ci-tutorial)
 
 ## FourInARow: Using the GameplayKit Minmax Strategist for Opponent AI
 
@@ -21,14 +22,3 @@ For a more thorough discussion of this project, see the chapter "The Minmax Stra
 
 [1]: https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/GameplayKit_Guide/index.html
 
-## Requirements
-
-### Build
-
-Xcode 7.0, iOS 9.0
-
-### Runtime
-
-iOS 9.0
-
-Copyright (C) 2015 Apple Inc. All rights reserved.
