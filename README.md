@@ -2,7 +2,7 @@
 
 Travis CI [Guide](https://www.raywenderlich.com/109418/travis-ci-tutorial)
 
-####Master branch build status: 
+#### Master branch build status: 
 ![](https://travis-ci.org/rainbean/TravisExerice.svg?branch=master)
 
 ## FourInARow: Using the GameplayKit Minmax Strategist for Opponent AI
