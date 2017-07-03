@@ -6,4 +6,4 @@ xcode_sdk: iphonesimulator10.3
 
 # somehow default behavior not working, refer https://stackoverflow.com/questions/41786984/error-unexpected-action-build-when-building-a-project-with-swift-3-and-cocoa
 script:
-    - xcodebuild clean build -sdk iphonesimulator -workspace Project.xcworkspace -scheme ProjectTests CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean build -sdk iphonesimulator10.3 -workspace FourInARow.xcworkspace -scheme FourInARowTests CODE_SIGNING_REQUIRED=NO
