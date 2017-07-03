@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode8.3
+xcode_project: FourInARow.xcodeproj
+xcode_scheme: FourInARow
+xcode_sdk: iphonesimulator10.3
